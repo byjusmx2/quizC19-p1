@@ -38,7 +38,7 @@ function preload(){
 function setup() {
   createCanvas(600, 500);
   
-  var message = "This is a message";
+  var message = "Esto es un mensaje";
  
   
   trex = createSprite(50,380,20,50);
@@ -69,7 +69,7 @@ function setup() {
   invisibleGround = createSprite(200,390,400,10);
   invisibleGround.visible = false;
   
-  //create Obstacle and Cloud Groups
+  //crear grupos de obstáculos y nubes
   obstaclesGroup = createGroup();
   cloudsGroup = createGroup();
 
